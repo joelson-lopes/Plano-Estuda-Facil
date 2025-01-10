@@ -23,7 +23,7 @@
     }
 
     img#bgpage {
-        height: auto;
+        height: 100vh;
     }
 
     main {
