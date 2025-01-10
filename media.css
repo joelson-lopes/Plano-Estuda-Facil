@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .ImgMain {
+        height: auto;
+    }
+
+    main div h1 {
+        font-size: 40px;
+    }
+
+    main div a {
+        font-size: 25px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    main div h1 {
+        font-size: 30px;
+    }
+
+    main div a {
+        font-size: 20px;
+        padding: 8px 10px;
+    }
+}
