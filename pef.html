@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/creps4.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="creps.css">
+    <title>Plano Estuda Fácil</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+        ::root {
+            --corRoxo: var(#991470);
+            --corAzul: var(#02B2B2);
+            --corAmarelo: var(#FED807);
+            --corBrancoC: var(#F2F3F5);
+            --corLilas: var(#410084);
+            --corLaranja: var(#FE8301);
+            --corVerdeClaro: var(#8EC641);
+            --corBrancoPuro: var(#FFFFFF);
+        }
+       /*keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }*/
+
+
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            top: 0.5px;
+            background-color: #410084;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+            font-weight: 600;
+            color: var(--corBrancoPuro);
+        }
+
+        marquee {
+            font-size: medium;
+            padding: 8px;
+            display: inline-flex;
+            width: auto;
+            border: solid 2.5px #FE8301;
+            border-radius: 20px;
+        }
+
+        img#bgpage {
+            width: 100vw;
+            height: 85%;
+            object-fit: cover;
+            filter: brightness(20%);
+
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        main {
+            position: relative;
+        }
+
+        main div .expose {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+
+        img{
+            width: 50%;
+            height: 50%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            margin-left: 10px;
+        }
+        #once1{
+            margin-right: 8%;
+        }
+
+        #once2{
+            margin-right: 8%;
+            width: 60%;
+        }
+
+        #once3{
+            margin-right: 8%;
+        }
+
+        .expose img:hover {
+            transform: scale(1.05);
+        }
+
+
+        footer p {
+            margin: 0;
+            font-size: small;
+        }
+
+        footer {
+            background-color: #FE8301;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <marquee behavior="#" direction="left">
+            <h1>Plano Estuda Fácil</h1>
+        </marquee>
+
+    </header>
+    <main>
+
+        <img id="bgpage" src="images/image.png" alt="bg">
+
+        <div>
+
+            <div class="expose">
+                <img id="once1"  src="images/conexmom.jpeg"  alt="Conexmom">
+                <img id="once2"  src="images/handphone.png"  alt="handphone"> 
+                <img id="once3"  src="images/togetherfuture.jpeg" alt="tf">
+            </div>
+            
+
+        </div>
+
+        <footer>
+            <p>&copy; 2025 UGR @JO'LORAS.Todos os direitos reservados.</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
